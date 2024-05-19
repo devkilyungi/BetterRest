@@ -49,10 +49,10 @@ https://github.com/devkilyungi/BetterRest/assets/99484519/934e0804-6adf-4283-9c1
 
 <div style="flex: 1; text-align: center;">
   <p>Home Screen</p>
-  <img src="./assets/home_light.png" alt="Home Screen" width="300">
+  <img src="./home_light.png" alt="Home Screen" width="300">
 </div>
 
 <div style="flex: 1; text-align: center;">
   <p>Home Screen</p>
-  <img src="./assets/home_dark.png" alt="Home Screen" width="300">
+  <img src="./home_dark.png" alt="Home Screen" width="300">
 </div>
