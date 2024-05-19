@@ -2,6 +2,10 @@
 
 BetterRest is a simple SwiftUI app designed to help you improve your sleep quality by calculating the optimal bedtime based on your wake-up time, desired sleep duration, and coffee intake.
 
+## Disclaimer
+
+*The recommendations provided by BetterRest are based on a machine learning model trained on simulated data and should be used for informational purposes only. The data used to train the model is not actual health data and should not be considered as a substitute for professional medical advice. Always consult with a healthcare professional for personalized sleep recommendations and guidance on improving sleep quality.*
+
 ## Features
 
 - **Bedtime Recommendation**: Enter your wake-up time, desired sleep duration, and daily coffee intake to receive a personalized recommendation for your bedtime.
