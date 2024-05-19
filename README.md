@@ -1,43 +1,38 @@
 # BetterRest
 
-BetterRest is a simple sleep management app designed to help coffee drinkers optimize their sleep by recommending ideal bedtimes based on their wake-up time, desired sleep duration, and daily coffee intake. This project serves as an introduction to using Core ML and Create ML in SwiftUI projects.
+BetterRest is a simple SwiftUI app designed to help you improve your sleep quality by calculating the optimal bedtime based on your wake-up time, desired sleep duration, and coffee intake.
 
 ## Features
 
-- **Wake-Up Time Input:** Users can select their desired wake-up time using a `DatePicker`.
-- **Sleep Duration Input:** Users can specify the amount of sleep they want using a `Stepper`.
-- **Coffee Intake Input:** Users can record their daily coffee consumption using a `Stepper`.
-- **Bedtime Recommendation:** The app calculates and displays the recommended bedtime based on user inputs using a Core ML model.
+- **Bedtime Recommendation**: Enter your wake-up time, desired sleep duration, and daily coffee intake to receive a personalized recommendation for your bedtime.
+- **Rate Sleep Quality**: Keep track of your sleep quality by rating your sleep experience and adding optional comments.
+- **Weekly Summary**: View a summary of your sleep data for the past week, including sleep quality ratings and comments.
 
-## Screenshots
+## Main Technologies:
 
-![Screenshot](screenshot.png)
+`Swift`
+`SwiftUI`
+
+## How to Use
+
+1. Launch the app and enter your preferred wake-up time, desired sleep duration, and daily coffee intake.
+2. Receive a personalized recommendation for your bedtime based on the entered information.
+3. Rate your sleep quality and add comments to track your sleep experience.
+4. View a summary of your sleep data for the past week to monitor your sleep habits and make adjustments as needed.
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/BetterRest.git
+   git clone https://github.com/devkilyungi/BetterRest.git
    ```
 2. Open the project in Xcode.
 
 3. Build and run the project on your simulator or device.
 
-## Usage
-
-1. **Set Wake-Up Time:** Use the `DatePicker` to select the time you want to wake up.
-2. **Set Sleep Amount:** Adjust the `Stepper` to set your desired hours of sleep.
-3. **Set Coffee Intake:** Adjust the `Stepper` to indicate your daily coffee consumption.
-4. **View Bedtime:** The app automatically calculates and displays the recommended bedtime based on your inputs.
-
 ## Core ML Integration
 
 The app utilizes a Core ML model to predict the optimal bedtime. The model takes into account the user's wake-up time, desired sleep duration, and coffee intake to provide a personalized recommendation.
-
-## Code Structure
-
-- `ContentView.swift`: The main view of the app where users input their wake-up time, sleep amount, and coffee intake, and view the recommended bedtime.
-- `calculateBedtime()`: A function that uses the Core ML model to calculate the recommended bedtime based on user inputs.
 
 ## Acknowledgements
 
@@ -47,3 +42,17 @@ The app utilizes a Core ML model to predict the optimal bedtime. The model takes
 ## Author
 
 - Victor Kilyungi
+
+## Demo Images and Video:
+
+https://github.com/devkilyungi/BetterRest/assets/99484519/934e0804-6adf-4283-9c1e-f667834931c7
+
+<div style="flex: 1; text-align: center;">
+  <p>Home Screen</p>
+  <img src="./assets/home_light.png" alt="Home Screen" width="300">
+</div>
+
+<div style="flex: 1; text-align: center;">
+  <p>Home Screen</p>
+  <img src="./assets/home_dark.png" alt="Home Screen" width="300">
+</div>
